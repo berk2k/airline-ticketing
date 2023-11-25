@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using se4458_midterm.Context;
 
@@ -11,9 +12,11 @@ using se4458_midterm.Context;
 namespace se4458_midterm.Migrations
 {
     [DbContext(typeof(AirlineDbContext))]
-    partial class AirlineDbContextModelSnapshot : ModelSnapshot
+    [Migration("20231125145511_UpdateSQLDB")]
+    partial class UpdateSQLDB
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -150,7 +153,7 @@ namespace se4458_midterm.Migrations
                             Name = "admin",
                             Password = "admin",
                             Role = "admin",
-                            UserName = "admin"
+                            UserName = "se4458_admin"
                         },
                         new
                         {
