@@ -1,5 +1,5 @@
 # Design:
- Purpose and Scope of the project:
+   Purpose and Scope of the project:
     Purpose of the project is creating an airline ticketing transactions using web services.
    The project offers several functionalities:
       1- Get, update , delete and create flights.
