@@ -1,20 +1,20 @@
 # Design:
-  Purpose and Scope of the project:
+ # Purpose and Scope of the project:
     Purpose of the project is creating an airline ticketing transactions using web services.
-    The project offers several functionalities:
+   # The project offers several functionalities:
       1- Get, update , delete and create flights.
       2- Query tickets with date, from, to, and number of people.(Supports pagination)
       3- Booking tickets with flight no, date, from, to, and passenger name.
       4- Login and register for authentication.
-  Authentication:
+ # Authentication:
     For authentication, I used JWT tokens.
     When user login, token will be given to user.
     There are 2 types of users, admin and passenger.
     Admins have access to all API endpoints.
     Passengers can only access query ticket, book ticket, login, and register endpoints.
-  Pagination:
+ # Pagination:
     Users can query tickets with pagination.
-  Versioning:  
+ # Versioning:  
     The project has two versions.
     v2 has some differences than v1. 
     For example: In v1 user can get flight with flight id, In v2 user can get it with flight number.
