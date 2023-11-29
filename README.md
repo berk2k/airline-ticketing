@@ -1,3 +1,6 @@
+For authentication you can try: <br/>
+"username" = admin "password" = admin <br/>
+
 # Design:
    **Purpose and Scope of the project:** <br/>
     Purpose of the project is creating an airline ticketing transactions using web services.<br/>
